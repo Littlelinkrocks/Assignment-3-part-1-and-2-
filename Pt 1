@@ -1,0 +1,15 @@
+var randomNumber
+var userChoice
+var computerChoice
+
+const userChoice= () => {
+    const randomNumber = (Math.floor(Math.random() * 2))
+    if (randomNumber === 1){
+      return "heads";
+    }
+    else if (randomNumber === 2){
+      return "tails";
+    }
+  
+      }
+  console.log(getComputerChoice());
